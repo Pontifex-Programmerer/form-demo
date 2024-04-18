@@ -1,0 +1,19 @@
+.main {
+    padding: 20px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 25ch;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.user {
+    color: rgb(161, 0, 0);
+}

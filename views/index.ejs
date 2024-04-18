@@ -1,0 +1,14 @@
+<%-include('partials/head')%>
+<form action="/" method="post">
+    <input type="text" name="name" id="name">
+    <input type="number" name="phone" id="phone">
+    <input type="submit" value="Submit">
+</form>
+
+<% if(typeof(name) !== 'undefined' && typeof(phone !=='undefined')) { %>
+    <div class="user">
+        <h1 class="name"><%=name%></h1>
+        <h2 class="phone"><%=phone%></h2>
+    </div>
+<% } %>
+<%-include('partials/footer')%>
